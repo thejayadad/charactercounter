@@ -1,9 +1,8 @@
 
-let text = document.getElementById("text");
-let count = document.getElementById("count");
 
-function count(){
-    let charc = text.value;
-    let charcleng = text.value.length;
-    count.innerText = `${charcleng}`;
-}
+        function counter(){
+            let c = document.getElementById("text").value;
+            let count = c.length;
+            document.getElementById("count").innerHTML = count;
+        }
+
